@@ -2,3 +2,10 @@
 body{
     background-color: beige;
 }
+
+#portada_curriculum{
+    background-color: aqua;
+    width: 60%;
+    margin: 0 10vw;
+}
+
