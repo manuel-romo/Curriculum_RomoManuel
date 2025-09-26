@@ -1,11 +1,89 @@
 
+/*
+Hecho por: Manuel Romo López
+ID: 00000253080
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+nav{
+    margin-top: 2%;
+    text-align: center;
+}
+
+nav a{
+    color:rgb(44, 63, 125);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 2% 2%;
 }
 
 #portada_curriculum{
-    background-color: aqua;
-    width: 60%;
-    margin: 0 10vw;
+    background-color: rgb(240, 235, 216);
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    border: 5px solid rgb(45, 43, 60);
+    text-align: justify;
 }
 
+#seccion_perfil{
+    text-align: center;
+}
+
+#seccion_perfil a{
+    text-decoration: none;
+    color:rgb(76, 107, 209);
+}
+
+#seccion_perfil_semblanza_idiomas{
+    background-color: rgb(211, 251, 255);
+    padding: 2% 2% 2% 2%;
+}
+
+#seccion_laboral_educacion{
+    background-color: rgb(245, 236, 229);
+    padding: 2% 2% 2% 2%;
+}
+
+#main_intereses{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#articulo_intereses{
+    display: flex;
+    margin:auto;
+    max-width: 50%;
+    text-align: justify;
+}
+
+#seccion_intereses_personales{
+    background-color: bisque;
+    padding: 3%;
+}
+
+#seccion_intereses_personales h3{
+    text-align: center;
+}
+
+#seccion_intereses_profesionales{
+    background-color: aquamarine;
+    padding: 3%;
+}
+
+#seccion_intereses_profesionales h3{
+    text-align: center;
+}
