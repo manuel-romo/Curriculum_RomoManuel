@@ -7,10 +7,18 @@ ID: 00000253080
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(35, 42, 100);
     font-family: "Roboto", sans-serif;
     font-size: 1.1em;
     line-height: 1.5em;
+}
+
+footer{
+    background-color: rgb(186, 190, 206);
+    text-align: center;
+    padding: 3% 0;
+    margin-top:2%;
+    font-weight: 700;
 }
 
 nav{
@@ -19,23 +27,19 @@ nav{
 }
 
 nav a{
-    color:rgb(44, 63, 125);
+    color:rgb(235, 236, 240);
     font-weight: 600;
     text-decoration: none;
 }
 
 nav li{
     list-style-type: none;
-    display: inline;
-    padding: 2% 2%;
 }
 
 #portada_curriculum{
-    background-color: rgb(240, 235, 216);
-    max-width: 50%;
+    background-color: rgb(1, 9, 13);
     margin: auto;
-    display: flex;
-    border: 5px solid rgb(45, 43, 60);
+    border: 5px solid rgb(154, 176, 197);
     text-align: justify;
 }
 
@@ -49,12 +53,12 @@ nav li{
 }
 
 #seccion_perfil_semblanza_idiomas{
-    background-color: rgb(211, 251, 255);
+    background-color: rgb(255, 255, 255);
     padding: 2% 2% 2% 2%;
 }
 
 #seccion_laboral_educacion{
-    background-color: rgb(245, 236, 229);
+    background-color: rgb(206, 231, 235);
     padding: 2% 2% 2% 2%;
 }
 
@@ -63,15 +67,18 @@ nav li{
     margin-top: 5%;
 }
 
+#main_intereses h2{
+    color:white;
+}
+
+
 #articulo_intereses{
-    display: flex;
     margin:auto;
-    max-width: 50%;
     text-align: justify;
 }
 
 #seccion_intereses_personales{
-    background-color: bisque;
+    background-color: rgb(182, 185, 218);
     padding: 3%;
 }
 
@@ -80,10 +87,66 @@ nav li{
 }
 
 #seccion_intereses_profesionales{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     padding: 3%;
 }
 
 #seccion_intereses_profesionales h3{
     text-align: center;
 }
+
+#articulo_horario{
+    margin-top: 2%;
+    text-align:center;
+}
+
+#articulo_horario h2{
+    color:rgb(241, 240, 240);
+}
+
+#articulo_horario table{
+    margin:auto;
+}
+
+#articulo_horario th{
+    border: 2px solid rgb(162, 162, 202);
+    background-color: rgb(110, 81, 81);
+    color:#eaf1f1;
+}
+
+#articulo_horario td{
+    border: 2px solid rgb(168, 168, 197);
+}
+
+.td_ingenieria_requisitos{
+    background-color: rgb(207, 198, 175);
+}
+
+.td_arquitectura_software{
+    background-color: rgb(211, 152, 114);
+}
+
+.td_aplicaciones_web{
+    background-color: rgb(182, 251, 152);
+}
+
+.td_administracion_proyectos_software{
+    background-color: rgb(220, 126, 151);
+}
+
+.td_metodos_numericos{
+    background-color: rgb(241, 219, 74);
+}
+
+.td_disenio_sistemas_interactivos{
+    background-color: rgb(125, 155, 70);
+}
+
+.td_hora{
+    background-color: rgb(73, 73, 66);
+    color:#e6eded;
+}
+
+.td_vacio{
+    background-color: rgb(248, 248, 247);
+} 
